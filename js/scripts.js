@@ -19,7 +19,7 @@ startBtn.addEventListener('click', () => {
 
 
 /*Question Answers*/
-const quizAnswers = ['b', 'a', 'd']
+const quizAnswers = ['b', 'c', 'c']
 
 /*Function for get answers*/
 let personAnswers = []
@@ -72,4 +72,5 @@ next.addEventListener('click', () => {
 reload.addEventListener('click', () => {
     location.reload()
 })
+
 getAnswer(questionItem)
